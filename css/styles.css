@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+/* Carousel Image */
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+}
+
+/* .row {
+  width: 100%;
+} */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #262626;
+}
+
+/* Navbar */
+
+#mainMenu .nav-link {
+  color: #262626;
+}
+
+#mainMenu .nav-link.active {
+  color: #c61a09;
+  font-weight: bolder;
+}
+
+/* Hovers */
+
+#mainMenu .nav-link:hover {
+  color: #c61a09;
+  font-weight: 600;
+}
+
+.social i:hover {
+  color: #c61a09;
+}
+
+.row a:hover {
+  color: #c61a09;
+  font-weight: bolder;
+}
+
+.ord-btn .btn:hover {
+  color: #c61a09;
+  font-weight: bolder;
+}
+
+.container .btn-apply:hover {
+  opacity: 0.8;
+}
+
+/* Contact Us Icons */
+
+.social i {
+  color: #262626;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.social a {
+  padding-left: 10px;
+}
+
+/* Footer */
+
+#footer ul a {
+  color: #262626;
+  text-decoration: none;
+}
+
+#footer ul a:hover {
+  color: #17a2b8;
+}
+
+/* About Us Officials */
+
+#officials hr {
+  max-width: 35px;
+  height: 3px;
+  background-color: black;
+}
+#officials .item {
+  text-align: center;
+}
+#officials img {
+  max-width: 300px;
+  padding: 10px;
+}
+#officials .card {
+  border: none;
+}
+#officials .container {
+  max-width: 1200px;
+}
+#officials .fst-italic {
+  font-size: 0.9rem;
+}
+
+#brgy-ordinances .container {
+  max-width: 1000px;
+}
+
+/* Services Image */
+
+.fit-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+}
+
+#brgy-ordinances h2.text-danger {
+  padding-top: 50px;
+}
+
+#demography .container {
+  max-width: 1200px;
+}
+
+#demography img {
+  max-width: 100%;
+}
+#demography .table {
+  max-width: 60%;
+}
+
+#dispute img {
+  height: auto;
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1200px) {
+  #about,
+  #contact,
+  #services {
+    padding: 15px;
+  }
+  #slider {
+    padding-top: 50px;
+  }
+
+  .navbar-brand img {
+    width: 250px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  button.nav-link.btn {
+    display: inline;
+    align-self: center;
+  }
+
+  .carousel-item img {
+    padding-top: 0%;
+    height: 100%;
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    height: 1rem;
+    opacity: 0.7;
+    margin-top: 75px;
+  }
+  .card {
+    margin-top: 20px;
+  }
+
+  .container .contact-details .col {
+    padding: 1px;
+    margin: 0px;
+  }
+
+  .ordinances h4 {
+    font-size: 20px;
+  }
+}
